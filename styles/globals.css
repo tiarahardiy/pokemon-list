@@ -1,7 +1,7 @@
 html,
 body {
   padding: 0;
-  margin: 0;
+  margin: 100px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -23,4 +23,63 @@ a {
     color: white;
     background: black;
   }
+}
+
+.card-img-top.custom-img {
+  width: 50%; /* Sesuaikan dengan lebar yang diinginkan */
+  height: 20vh; /* Otomatis menyesuaikan tinggi sesuai aspek ratio */
+  display: block; /* Menghilangkan margin atas dan bawah dari gambar */
+  margin: auto; /* Memposisikan gambar di tengah */
+}
+.custom-card {
+  -moz-border-radius: 5px;
+  border-radius: 50px;
+  -moz-box-shadow: 5px 5px black;
+  -webkit-box-shadow: 5px 5px black;
+  box-shadow: 5px 5px black;
+}
+
+.circle-shadow {
+  position: absolute;
+  width: 20vh;
+  height: 20vh;
+  border-radius: 10vh;
+  color: blueviolet;
+  z-index: -1; /* Menempatkan SVG di belakang gambar */
+}
+
+.circle-shadow circle {
+  opacity: 0.3; /* Sesuaikan opasitas sesuai kebutuhan */
+}
+
+.img-card {
+  width: 50px;
+  height: 60px;
+}
+
+.circle-back {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  display: inline-block;
+  padding: 6px;
+}
+
+.icon-back {
+  font-size: 28px;
+  text-align: center;
+  color: white;
+}
+
+.pokemon-name {
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.img-fluid .custom-img-detail {
+  width: 100%; /* Sesuaikan dengan lebar yang diinginkan */
+  height: 20vh; /* Otomatis menyesuaikan tinggi sesuai aspek ratio */
+  display: block; /* Menghilangkan margin atas dan bawah dari gambar */
+  margin: auto; /* Memposisikan gambar di tengah */
 }

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 .container {
   padding: 0 2rem;
 }
@@ -31,6 +32,7 @@
 .title a {
   color: #0070f3;
   text-decoration: none;
+  font-family: "Indie Flower", cursive;
 }
 
 .title a:hover,
@@ -43,6 +45,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  margin-bottom: 50px;
 }
 
 .title,
@@ -126,4 +129,23 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.picture {
+  width: 25%;
+}
+
+.card-img-top {
+  margin: 20px;
+  width: 50%;
+}
+
+.custom-card {
+  height: 300px;
+  margin: 20px;
+}
+
+.img-card {
+  width: 50px;
+  height: 60px;
 }
